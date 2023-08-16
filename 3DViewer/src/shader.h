@@ -47,7 +47,6 @@ public:
             std::cout << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n" << infoLog << std::endl;
         }
 
-
         // link shaders
         ID = glCreateProgram();
         glAttachShader(ID, vertexShader);

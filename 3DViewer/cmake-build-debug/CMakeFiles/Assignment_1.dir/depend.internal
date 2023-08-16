@@ -164,6 +164,6 @@ CMakeFiles/Assignment_1.dir/src/main.cpp.o
  ../includes/glm/vec3.hpp
  ../includes/glm/vec4.hpp
  ../includes/glm/vector_relational.hpp
- /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/src/main.cpp
- /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/src/shader.h
- /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/src/shaderSource.h
+ /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/main.cpp
+ /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/shader.h
+ /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/shaderSource.h

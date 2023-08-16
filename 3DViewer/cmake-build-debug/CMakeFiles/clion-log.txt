@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer
 -- The C compiler identification is AppleClang 12.0.5.12050022
 -- The CXX compiler identification is AppleClang 12.0.5.12050022
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
@@ -17,4 +17,4 @@
 -- Found GLFW3 in /usr/local/include
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug
+-- Build files have been written to: /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug

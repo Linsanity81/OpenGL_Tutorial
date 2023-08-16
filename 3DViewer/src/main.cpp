@@ -452,7 +452,7 @@ int main()
 
     // glfw window creation
     // --------------------
-    GLFWwindow* window = glfwCreateWindow(winWidth, winHeight, "Assignment 1 - Mesh Viewer", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(winWidth, winHeight, "Mesh Viewer", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -495,14 +495,16 @@ int main()
     // create buffers/arrays
     unsigned int VBO, VAO,EBO;
     glGenVertexArrays(1, &VAO);
-    glGenBuffers(1, &VBO);
-    glGenBuffers(1, &EBO);
+
+    // bind VAO
     glBindVertexArray(VAO);
 
     // load data into vertex buffers
+    glGenBuffers(1, &VBO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, verList.size() * sizeof(float), &verList[0], GL_STATIC_DRAW);
 
+    glGenBuffers(1, &EBO);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, triList.size() * sizeof(unsigned int), &triList[0], GL_STATIC_DRAW);
 
@@ -515,11 +517,11 @@ int main()
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6*sizeof(float), ((void*)(3* sizeof(float))));
     glEnableVertexAttribArray(1);
 
+    // unbind VAO
     glBindVertexArray(0);
 
     // as we only have a single shader, we could also just activate our shader once beforehand if we want to 
     myShader.use();
-
 
     // render loop
     // -----------
@@ -552,7 +554,6 @@ int main()
         glDrawElements(GL_TRIANGLES, triList.size(), GL_UNSIGNED_INT, 0);
         glBindVertexArray(0);
 
-
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         // -------------------------------------------------------------------------------
         glfwSwapBuffers(window);
@@ -562,7 +563,10 @@ int main()
     // optional: de-allocate all resources once they've outlived their purpose:
     // ------------------------------------------------------------------------
     glDeleteVertexArrays(1, &VAO);
+
     glDeleteBuffers(1, &VBO);
+    glDeleteBuffers(1, &EBO);
+
     glDeleteProgram(myShader.ID);
 
     // glfw: terminate, clearing all previously allocated GLFW resources.

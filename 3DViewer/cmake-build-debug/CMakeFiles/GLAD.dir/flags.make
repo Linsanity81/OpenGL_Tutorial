@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/includes 
+C_INCLUDES = -I/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/includes 
 

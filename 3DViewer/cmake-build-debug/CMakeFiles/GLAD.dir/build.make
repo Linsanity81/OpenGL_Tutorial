@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac
+CMAKE_SOURCE_DIR = /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GLAD.dir/depend.make
@@ -79,16 +79,16 @@ include CMakeFiles/GLAD.dir/flags.make
 
 CMakeFiles/GLAD.dir/src/glad.c.o: CMakeFiles/GLAD.dir/flags.make
 CMakeFiles/GLAD.dir/src/glad.c.o: ../src/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GLAD.dir/src/glad.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GLAD.dir/src/glad.c.o   -c /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GLAD.dir/src/glad.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GLAD.dir/src/glad.c.o   -c /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/glad.c
 
 CMakeFiles/GLAD.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLAD.dir/src/glad.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/src/glad.c > CMakeFiles/GLAD.dir/src/glad.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/glad.c > CMakeFiles/GLAD.dir/src/glad.c.i
 
 CMakeFiles/GLAD.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLAD.dir/src/glad.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/src/glad.c -o CMakeFiles/GLAD.dir/src/glad.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/glad.c -o CMakeFiles/GLAD.dir/src/glad.c.s
 
 # Object files for target GLAD
 GLAD_OBJECTS = \
@@ -100,7 +100,7 @@ GLAD_EXTERNAL_OBJECTS =
 libGLAD.a: CMakeFiles/GLAD.dir/src/glad.c.o
 libGLAD.a: CMakeFiles/GLAD.dir/build.make
 libGLAD.a: CMakeFiles/GLAD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libGLAD.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libGLAD.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/GLAD.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GLAD.dir/link.txt --verbose=$(VERBOSE)
 
@@ -114,6 +114,6 @@ CMakeFiles/GLAD.dir/clean:
 .PHONY : CMakeFiles/GLAD.dir/clean
 
 CMakeFiles/GLAD.dir/depend:
-	cd /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug/CMakeFiles/GLAD.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug /Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/CMakeFiles/GLAD.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GLAD.dir/depend
 

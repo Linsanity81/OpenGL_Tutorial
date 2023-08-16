@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/src/glad.c" "/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug/CMakeFiles/GLAD.dir/src/glad.c.o"
+  "/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/glad.c" "/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/CMakeFiles/GLAD.dir/src/glad.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 

@@ -1116,7 +1116,7 @@ detail/setup.hpp
 detail/func_vector_relational.inl
 ../includes/glm/detail/func_vector_relational.inl
 
-/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/src/main.cpp
+/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/main.cpp
 iostream
 -
 sstream
@@ -1132,11 +1132,11 @@ GLFW/glfw3.h
 glm/gtc/matrix_transform.hpp
 -
 shaderSource.h
-/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/src/shaderSource.h
+/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/shaderSource.h
 shader.h
-/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/src/shader.h
+/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/shader.h
 
-/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/src/shader.h
+/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/shader.h
 glm/glm.hpp
 -
 glad/glad.h
@@ -1146,5 +1146,5 @@ GLFW/glfw3.h
 iostream
 -
 
-/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/src/shaderSource.h
+/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/shaderSource.h
 

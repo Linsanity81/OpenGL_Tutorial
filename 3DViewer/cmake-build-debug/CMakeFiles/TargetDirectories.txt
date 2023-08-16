@@ -1,4 +1,4 @@
-/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug/CMakeFiles/Assignment_1.dir
-/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/cmake-build-debug/CMakeFiles/GLAD.dir
+/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/CMakeFiles/Assignment_1.dir
+/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/CMakeFiles/GLAD.dir

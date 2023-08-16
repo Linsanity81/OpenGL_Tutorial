@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -g -isysroot /Library/Developer/CommandLineTools/SDKs/Mac
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/Assignment_1/Assignment_1_solution/Assignment_1_mac/includes 
+CXX_INCLUDES = -I/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/includes 
 
