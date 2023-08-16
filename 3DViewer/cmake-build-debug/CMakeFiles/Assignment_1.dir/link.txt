@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -std=c++11 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Assignment_1.dir/src/main.cpp.o  -o Assignment_1  /usr/local/lib/libglfw.dylib libGLAD.a /usr/local/lib/libglfw.dylib 
