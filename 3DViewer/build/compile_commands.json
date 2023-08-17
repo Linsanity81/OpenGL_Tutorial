@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/linsanity/Documents/GitHub/OpenGL_Tutorial/3DViewer/build",
+  "command": "/usr/bin/clang  -I/Users/linsanity/Documents/GitHub/OpenGL_Tutorial/3DViewer/includes -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -o CMakeFiles/GLAD.dir/src/glad.c.o -c /Users/linsanity/Documents/GitHub/OpenGL_Tutorial/3DViewer/src/glad.c",
+  "file": "/Users/linsanity/Documents/GitHub/OpenGL_Tutorial/3DViewer/src/glad.c"
+},
+{
+  "directory": "/Users/linsanity/Documents/GitHub/OpenGL_Tutorial/3DViewer/build",
+  "command": "/usr/bin/clang++  -I/Users/linsanity/Documents/GitHub/OpenGL_Tutorial/3DViewer/includes -std=c++11 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -o CMakeFiles/3DViewer.dir/src/main.cpp.o -c /Users/linsanity/Documents/GitHub/OpenGL_Tutorial/3DViewer/src/main.cpp",
+  "file": "/Users/linsanity/Documents/GitHub/OpenGL_Tutorial/3DViewer/src/main.cpp"
+}
+]
