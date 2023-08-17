@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Assignment_1">
-				<Option output="/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Assignment_1" prefix_auto="0" extension_auto="0"/>
+			<Target title="3DViewer">
+				<Option output="/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/3DViewer" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,14 +53,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_1"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 3DViewer"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Assignment_1/fast">
-				<Option output="/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Assignment_1" prefix_auto="0" extension_auto="0"/>
+			<Target title="3DViewer/fast">
+				<Option output="/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/3DViewer" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -75,7 +75,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_1/fast"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 3DViewer/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -130,7 +130,7 @@
 			<Option target="GLAD"/>
 		</Unit>
 		<Unit filename="/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/src/main.cpp">
-			<Option target="Assignment_1"/>
+			<Option target="3DViewer"/>
 		</Unit>
 		<Unit filename="/Users/linsanity/Documents/Github/Rulin_OpenGL_Tutorial/3DViewer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

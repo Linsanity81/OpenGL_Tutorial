@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Assignment_1
+# Target rules for targets named 3DViewer
 
 # Build rule for target.
-Assignment_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Assignment_1
-.PHONY : Assignment_1
+3DViewer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3DViewer
+.PHONY : 3DViewer
 
 # fast build rule for target.
-Assignment_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_1.dir/build.make CMakeFiles/Assignment_1.dir/build
-.PHONY : Assignment_1/fast
+3DViewer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DViewer.dir/build.make CMakeFiles/3DViewer.dir/build
+.PHONY : 3DViewer/fast
 
 #=============================================================================
 # Target rules for targets named GLAD
@@ -189,7 +189,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_1.dir/build.make CMakeFiles/Assignment_1.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DViewer.dir/build.make CMakeFiles/3DViewer.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -198,7 +198,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_1.dir/build.make CMakeFiles/Assignment_1.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DViewer.dir/build.make CMakeFiles/3DViewer.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -207,7 +207,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_1.dir/build.make CMakeFiles/Assignment_1.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DViewer.dir/build.make CMakeFiles/3DViewer.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -218,7 +218,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Assignment_1"
+	@echo "... 3DViewer"
 	@echo "... GLAD"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"

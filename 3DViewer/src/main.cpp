@@ -485,7 +485,8 @@ int main()
     // ------------------------------------
     // vertex shader
     shader myShader;
-    myShader.setUpShader(vertexShaderSource,fragmentShaderSource);
+//    myShader.setUpShader(vertexShaderSource,fragmentShaderSource);
+    myShader.setUpShader("../shader/basic.shader");
 
     // Load input mesh data
     vector<float> verList;          // This is the list of vertices and normals for rendering
